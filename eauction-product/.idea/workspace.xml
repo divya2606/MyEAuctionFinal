@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01288000-4217-42f7-b33e-e854f5daab59" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/product.query/target/" />
+    <ignored path="$PROJECT_DIR$/../cqrs-es/cqrs.core/target/" />
+    <ignored path="$PROJECT_DIR$/product.common/target/" />
+    <ignored path="$PROJECT_DIR$/product.cmd/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/controllers/ProductLookupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/ProductRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/ProductDBRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/CommandApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/AddProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.cmd/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/AddProductCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/EauctionProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/ProductCommandHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aggregateList</find>
+      <find>startPrice</find>
+      <find>bidAmount</find>
+      <find>getByProductId</find>
+      <find>findByProductIdOrderByBidAmountDesc</find>
+      <find>FindAllProductIdsQuery</find>
+      <find>extends</find>
+      <find>@repos</find>
+      <find>@entity</find>
+      <find>import com.eauction.product.cmd.api.commands.AddProductCommand;</find>
+      <find>springboot</find>
+      <find>@configura</find>
+      <find>handleInvalidArgument</find>
+      <find>jpa</find>
+      <find>@Qu</find>
+      <find>mongo</find>
+      <find>@</find>
+      <find>@Spring</find>
+      <find>@configu</find>
+      <find>@Enti</find>
+      <find>@servi</find>
+      <find>@Repo</find>
+      <find>@RestController</find>
+      <find>controllerad</find>
+      <find>postcon</find>
+      <find>crud</find>
+      <find>JPAre</find>
+      <find>@value</find>
+      <find>@valid</find>
+      <find>spring-boot-starter</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\Divya\eauction-product\product.common\src\main\java\com\eauction\product\common\events</dir>
+      <dir>D:\Divya\eauction-product\product.cmd</dir>
+      <dir>D:\Divya\cqrs-es\cqrs.core</dir>
+      <dir>D:\Divya\eauction-product</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/product.cmd/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/EventHandler.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/dto/ProductLookupResponse.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/FindBidsByProductQuery.java" />
+        <option value="$PROJECT_DIR$/product.cmd/pom.xml" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/AddProductController.java" />
+        <option value="$PROJECT_DIR$/../cqrs-es/cqrs.core/src/main/java/com/eauction/cqrs/core/exceptions/ApplicationExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/BidProductController.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductEventHandler.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventSourcingHandler.java" />
+        <option value="$PROJECT_DIR$/product.common/src/main/java/com/eauction/product/common/events/ProductAddedEvent.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/EauctionProduct.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/BidProductCommand.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/UpdateBidProductCommand.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java" />
+        <option value="$PROJECT_DIR$/product.common/src/main/java/com/eauction/product/common/events/ProductBidedEvent.java" />
+        <option value="$PROJECT_DIR$/product.common/src/main/java/com/eauction/product/common/events/ProductBidUpdatedEvent.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/BuyerDetails.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/UpdateBidController.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/AddProductCommand.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/ProductCommandHandler.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/BuyerRepository.java" />
+        <option value="$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/advice/AppplicationExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/FindProductDetailsQuery.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/FindAllProductIdsQuery.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/dto/ProductIdsReponse.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/ProductQueryHandler.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/QueryHandler.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/QueryApplication.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/dto/ProductDetailsResponse.java" />
+        <option value="$PROJECT_DIR$/product.query/pom.xml" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/ProductDBRepository.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/BuyerDBRepository.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/controllers/ProductLookupController.java" />
+        <option value="$PROJECT_DIR$/product.query/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product.query" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product.query" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="576" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cqrs" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="advice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="queries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="consumers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eauction-product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eauction-product" type="462c0819:PsiDirectoryNode" />
+              <item name="product.query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1665667712428" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kafka_testing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eauction.product.query.domain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.QueryApplication">
+    <configuration name="CommandApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eauction.product.cmd.CommandApplication" />
+      <module name="product.cmd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eauction.product.cmd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eauction.product.query.QueryApplication" />
+      <module name="product.query" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eauction.product.query.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QueryApplication" />
+        <item itemvalue="Application.CommandApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01288000-4217-42f7-b33e-e854f5daab59" name="Default Changelist" comment="" />
+      <created>1660230744281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660230744281</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="632" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32865733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32865733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4529058" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32865733" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32865733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32954547" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32865733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32865733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4529058" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32865733" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32865733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/AddProductController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventSourcingHandler.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventStore.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventProducer.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductEventHandler.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductEventHandler.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/BidProductController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/BidProductController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventStore.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/ProductCommandHandler.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/ProductCommandHandler.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductCommandDispatcher.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventSourcingHandler.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/DeleteProductController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/DeleteProductCommand.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/UpdateBidController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/UpdateBidController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductEventHandler.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/UpdateBidController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductCommandDispatcher.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/controllers/ProductLookupController.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/ProductQueryHandler.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductQueryDispatcher.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductEventHandler.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventSourcingHandler.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/ProductCommandHandler.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/ProductQueryHandler.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/ProductQueryHandler.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/EventConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.0/spring-data-commons-2.7.0.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/dto/ProductIdsReponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/CommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/QueryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/dto/ProductLookupResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cqrs-es/cqrs.core/src/main/java/com/eauction/cqrs/core/queries/BaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cqrs-es/cqrs.core/src/main/java/com/eauction/cqrs/core/infrastructure/QueryDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cqrs-es/cqrs.core/src/main/java/com/eauction/cqrs/core/infrastructure/CommandDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventSourcingHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/dto/AddProductResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.common/src/main/java/com/eauction/product/common/dto/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/BidProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="27" column="89" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/UpdateBidProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductEventProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/ProductAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1462">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/dto/ProductDetailsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/FindAllProductIdsQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/FindBidsByProductQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/FindProductDetailsQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/queries/ProductQueryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductQueryDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/consumers/ProductEventConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/BuyerDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/UpdateBidController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="39" column="85" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/DeleteProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/BuyerDBRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/infrastructure/handlers/ProductEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/DeleteProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.common/src/main/java/com/eauction/product/common/dto/CategoryType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/infrastructure/ProductCommandDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.0/spring-boot-autoconfigure-2.7.0.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/javax/validation/Valid.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/QueryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/BuyerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/ProductCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/domain/EventStoreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/advice/AppplicationExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/commands/AddProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/EauctionProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/CommandApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/api/controllers/ProductLookupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/ProductDBRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/src/main/java/com/eauction/product/query/domain/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.query/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.cmd/src/main/java/com/eauction/product/cmd/api/controllers/AddProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
